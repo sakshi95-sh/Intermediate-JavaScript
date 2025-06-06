@@ -1,0 +1,43 @@
+body{
+  /* background: url(/image/graph-paper-5.png); */
+  background: rgb(223, 225, 223);
+}
+.heading{
+  /* display: block; */
+  text-align: center;
+}
+button{
+  padding: 15px 10px 15px 10px;
+  color: white;
+  background: rgb(234, 3, 3);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+button:hover{
+    background: black;
+}
+button:active{
+  background: rgb(72, 72, 72);
+}
+#myContainer{
+display: flex;
+text-align: center;
+justify-content: space-evenly;
+}
+
+.pokemon-card-details {
+  border: 2px solid rgb(128, 128, 128);
+  background-color: rgb(104, 138, 127);
+width: 150px;
+ padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.pokemon-card {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 200px;
+}
