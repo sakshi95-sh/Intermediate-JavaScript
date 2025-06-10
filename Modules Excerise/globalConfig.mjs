@@ -1,0 +1,1 @@
+console.log("Simulating a global configuration setup")
